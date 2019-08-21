@@ -1,0 +1,150 @@
+/* background image control */
+html { 
+    background: url(img/background_img2.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+body {
+    font-family: 'Rubik', Helvetica, sans-serif;
+}
+
+#container {
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#header {
+    font-family: 'Concert One', Helvetica, sans-serif;
+
+    text-align: center;
+    padding: 20% 0 30% 0;
+
+    color: navy;
+    font-size: 45px;
+}
+
+/* #picture img {
+    display: block;
+
+    width: 250px;
+    height: 250px;
+
+    border: 1px solid #ddd;
+    border-radius: 20%;
+
+    padding: 5px;
+
+    margin-left: auto;
+    margin-right: auto;
+    
+} */
+
+#opaque {
+    
+}
+
+#content {
+    /* width: 70%; */
+    padding: 0;
+    border-radius: 5%;
+    
+    font-family: 'Prompt', Helvetica, sans-serif;
+    font-size: 22px;
+
+    background-color: #F3F3F3;
+
+    opacity: 0.8;
+    filter: alpha(opacity=60);
+}
+
+#nav {
+    width: 180px;
+    float: right;
+}
+
+#nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#nav .selected{
+    font-weight: bold;
+}
+
+h1 {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: rgba(1, 1, 104, 0.658);
+}
+
+
+#main {
+    margin: 30px auto 30px auto;
+
+    padding: 5px;
+    text-align: center;
+}
+
+/* Hi */
+#main h3 {
+    margin: 5%;
+    padding-top: 10px;
+}
+
+/* Paragraph */
+#main .front {
+    font-weight: bold;
+}
+
+.grid-container-bio div {
+    display: inline-block;
+    vertical-align: top;
+    width: 60%;
+    /* grid-column-gap: 10%; */
+}
+
+/* #main .item1 {
+    grid-row-start: 1;
+    grid-row-end: 2;
+} */
+
+#projects ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#projects .projectitems {
+    font-weight: thin;
+}
+
+.grid-container-contact div {
+    display: inline-block;
+
+    vertical-align: top;
+
+    width: 35%;
+}
+
+.grid-container-contact img {
+    width: 150px;
+    height: 150px;
+    padding: 30px;
+    /* opacity:; */
+}
+
+/* Copyright */
+#footer{
+    clear:both;
+    text-align: right;
+
+    padding: 10px;
+
+    color: white;
+}
