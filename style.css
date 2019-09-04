@@ -58,14 +58,14 @@ body {
     width: 100%;
     padding: 0;
     margin: 0;
-    border-radius: 7%;  
+    border-radius: 1%;
     
     font-family: 'Prompt', Helvetica, sans-serif;
     font-size: 22px;
 
     background-color: #F3F3F3;
 
-    opacity: 0.75;
+    opacity: 0.65;
     filter: alpha(opacity=60);
 }
 
