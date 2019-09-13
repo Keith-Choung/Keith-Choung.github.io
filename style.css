@@ -65,8 +65,8 @@ body {
 
     background-color: #F3F3F3;
 
-    opacity: 0.70;
-    filter: alpha(opacity=60);
+    opacity: 0.80;
+    /* filter: alpha(opacity=60); */
 }
 
 #nav {
