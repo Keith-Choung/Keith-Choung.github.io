@@ -4,68 +4,63 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" type="text/css" href="style.css" />
-    <link href="https://fonts.googleapis.com/css?family=Concert+One&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Rubik:400,900i&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Serif:300&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Prompt:300,400&display=swap" rel="stylesheet">
-    <title>Keith</title> 
+    <link rel="stylesheet" href="stylings/style.css">
+    <title>Document</title>
 </head>
 <body>
-    <div id="container">
-        <div id="header">
-            <!-- make it type out all of the different ways to say welcome -->
-            <h1 id="welcome">welcome</h1>
-            <script type="text/javascript" src="effects.js"></script>
-        </div>
-        <div id="content">
-            <!-- <div id="nav">
-                <h3>Menu</h3>
-                <ul>
-                    <li><a class="selected" href="">Home</a></li>
-                    <li><a class="selected" href="">About Me</a></li>
-                    <li><a class="selected" href="">Projects</a></li>
-                    <li><a class="selected" href="">Contact</a></li>
-                </ul>
-            </div> -->
-            <div id="main">
-                <div class="grid-container-bio">
-                    <p class="front"> Hi there,</p>
-                    <div><p class="item1">My name is Keith and I am a third year at UC Davis and I currently work as
-                            a Computer Technician at the School of Medicine. During my 
-                            free time, you can find me at your local hiking trails
-                            or at the gym.</p></div>
-                    <div><p class="item2">My professional interests include
-                            Web App Development and also Machine Learning. Currently, I'm working on Amazon Price Scraper 2.0 which will be a Web App that
-                            allow users to scrape for any specific information from any site. I believe this will be
-                            particularly helpful for data scientists who do not want to create their own scraper.
-                    </p></div>
-                </div>
-                <div id="projects">
-                    <br><br>
-                    <p>Projects</p>
-                    <ul>
-                        <li><a class="projectitems" href="https://github.com/Keith-Choung/WebScraper" target="_blank"><img src="Keith-Choung.github.io/img/PriceScraper-logo.png"></a></li>
-                    </ul>
-                </div>
-                <div id="contact">
-                    <br><br>
-                    <p>Contact Me</p>
-                    <div class="grid-container-contact">
-                        <div><a class="itema" href="https://linkedin.com/in/keithchoung" target="_blank"><img src="Keith-Choung.github.io/img/linkedin-logo.png"></a></div>
-                        <div><a class="itemb" href="https://github.com/Keith-Choung" target="_blank"><img src="Keith-Choung.github.io/img/github-logo1.png"></a></div>
-                        <div><a class="itemc" href="https://www.instagram.com/keithisbeast/" target="_blank"><img src="Keith-Choung.github.io/img/instagram-logo.png"></a></div>
-                        <div><a class="itemd" href="https://soundcloud.com/keith-choung" target="_blank"><img src="Keith-Choung.github.io/img/soundcloud-img-box.png"></a></div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div id="grayout" style="display: none;"></div>
-
-        <div id="footer">
-            Copyright &copy; 2019 Keith Choung
+    <nav id="side-nav">
+        <ul id="ul-side-nav" >
+            <li ><a href="#" onClick="scrollToMiddle('home');">home</a></li>
+            <li ><a href="#bio">bio</a></li>
+            <li><a href="#projects">projects</a></li>
+            <li><a href="#connect">connect</a></li>
+        </ul>
+    </nav>    
+    
+    <div id="home">
+        <h1>welcome</h1>
+        <script type="text/javascript" src="effects.js"></script>
+    </div>
+<div id="bio">
+        <h2>bio</h2>
+        <p>
+            Hi, my name is Keith and I am a third year at UC Davis studying Computer Science
+            and Statistics.
+        </p>
+        <hr/>
+        <p>
+            I currently work as a DevOps Engineer Intern at Tesla.
+        </p>
+        <hr/>
+        <p>
+            I enjoy building UIs and creating web apps. During my free time, 
+            I will usually be on a hike or watching movies.
+        </p>
+        <hr/>
+        <p>
+            If you want to learn more about my experiences, click the button below.
+        </p>
+        <form action="https://drive.google.com/file/d/14zzO4yEEptkYjv5uNsmz-uoABmJ3eyJy/view?usp=sharing">
+            <button type="submit" formtarget="_blank" class="btn btn-success">Click to View My Resume</button>
+        </form>
+    </div>
+    <div id="projects">
+        <h2>projects</h2>
+        <a class="projectitems" href="https://github.com/Keith-Choung/WebScraper" target="_blank"><img src="Keith-Choung.github.io/img/PriceScraper-logo.png" alt="/img/PriceScraper-logo.png"></a>
+    </div>
+    <div id="connect">
+        <h2>let's connect!</h2>
+        <div class="grid-container-contact">
+            <div><a id="itema" href="https://linkedin.com/in/keithchoung" target="_blank"><img src="Keith-Choung.github.io/img/linkedin-logo.png" alt="/img/linkedin-logo.png"></a></div>
+            <div><a id="itemb" href="https://github.com/Keith-Choung" target="_blank"><img src="Keith-Choung.github.io/img/github-logo1.png" alt="/img/github-logo1.png"></a></div>
+            <div><a id="itemc" href="https://soundcloud.com/keith-choung" target="_blank"><img src="Keith-Choung.github.io/img/soundcloud-img-box.png" alt="img/soundcloud-img-box.png"></a></div>
         </div>
     </div>
+
+    <div id="footer">
+        Copyright &copy; 2019 Keith Choung
+    </div>
+
+    <script type="text/javascript" src="effects.js"></script>
 </body>
 </html>
