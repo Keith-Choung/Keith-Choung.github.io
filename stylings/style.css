@@ -1,0 +1,106 @@
+@import './bootstrap.min.css';
+
+html {
+    scroll-behavior: smooth;
+}
+
+#side-nav {
+    margin: 30px 50px;
+    top: 0;
+    right: 0;
+    position: fixed;
+    display: inline;
+    background-color: #222;
+    font-size: 16px;
+}
+
+#ul-side-nav a {
+    text-decoration: none;
+    padding: 15px;
+}
+
+#ul-side-nav li {
+    margin: 5px;
+    display: inline;
+}
+
+#home {
+    margin-top: 400px;
+    height: 1000px;
+    text-align: center;
+}
+
+#bio {
+    height: 1000px;
+    text-align: center;
+}
+
+hr {
+    display: block;
+    /* height: 1px; */
+    width: 300px;
+    border: 0;
+    border-top: 1px solid #595959;
+    margin: 1em auto;
+    padding: 0;
+}
+
+#bio h2 {
+    /* invisible */
+    color: #222;
+}
+
+#bio p {
+    /* center */
+    margin: 80px auto 0 auto;
+
+    width: 450px;
+    font-size: 18px;
+    line-height: 40px;
+}
+
+#bio button {
+    margin-top: 80px;
+}
+
+#bio a {
+    color: #fff;
+}
+
+#projects {
+    height: 1000px;
+    text-align: center;
+}
+
+#projects h2 {
+    color: #222;
+}
+
+#projects img {
+    margin: 300px auto;
+}
+
+#connect {
+    height: 1000px;
+    text-align: center;
+}
+
+#connect h2 {
+    color: #222;
+}
+
+.grid-container-contact div {
+    margin: 300px auto 0 auto;
+    display: inline-flex;
+}
+
+.grid-container-contact img {
+    width: 100px;
+    height: 100px;
+    margin: 25px;
+}
+
+#footer {
+    font-size: 14px;
+    color: #595959;
+}
