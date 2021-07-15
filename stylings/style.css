@@ -5,7 +5,7 @@ html {
 }
 
 #side-nav {
-    margin: 30px 50px;
+    margin: 40px 50px;
     top: 0;
     right: 0;
     position: fixed;
@@ -15,11 +15,10 @@ html {
 
 #ul-side-nav a {
     text-decoration: none;
-    padding: 15px;
+    padding: 13px;
 }
 
 #ul-side-nav li {
-    margin: 5px;
     display: inline;
 }
 
@@ -53,7 +52,7 @@ hr {
     /* center */
     margin: 80px auto 0 auto;
 
-    width: 450px;
+    width: 500px;
     font-size: 18px;
     line-height: 40px;
 }
