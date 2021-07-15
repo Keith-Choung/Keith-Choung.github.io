@@ -72,6 +72,14 @@ hr {
 
 #projects h2 {
     color: #222;
+    margin-top: 300px;
+}
+
+.project-items {
+    width: 200px;
+    font-size: 20px;
+    margin: 10px;
+    padding: 30px;
 }
 
 #projects img {
